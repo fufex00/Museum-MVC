@@ -111,6 +111,9 @@
     <Compile Include="Models\DALMuseumHasFacility.cs" />
     <Compile Include="Models\DALMuseumType.cs" />
     <Compile Include="Models\DALPrice.cs" />
+    <Compile Include="Models\DALTicket.cs" />
+    <Compile Include="Models\DALWorkPiece.cs" />
+    <Compile Include="Models\DALWorkPieceType.cs" />
     <Compile Include="Models\FacilityEntity.cs" />
     <Compile Include="Models\ImgEntity.cs" />
     <Compile Include="Models\MuseumEntity.cs" />

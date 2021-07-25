@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-public class Work_pieceEntity
+public class WorkPieceEntity
 {
     public int Work_piece_id { get; set; }
 
@@ -22,15 +22,15 @@ public class Work_pieceEntity
 
     [Display(Name = "ID coleccion")]
     [Required(ErrorMessage = "Se debe ingresar el id")]
-    public string Collection_id { get; set; }
+    public int Collection_id { get; set; }
 
     [Display(Name = "ID tipo obra de arte")]
     [Required(ErrorMessage = "Se debe ingresar el id tipo")]
-    public string Work_type_id { get; set; }
+    public int Work_type_id { get; set; }
 
     [Display(Name = "Cultura")]
     [Required(ErrorMessage = "Se debe ingresar la cultura")]
-    public string Culture_id { get; set; }
+    public int Culture_id { get; set; }
 
     [Display(Name = "Detalles generales")]
     [Required(ErrorMessage = "Se debe ingresar los detalles")]

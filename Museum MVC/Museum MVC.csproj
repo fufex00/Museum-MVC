@@ -118,6 +118,9 @@
     <Compile Include="Models\MuseumTypeEntity.cs" />
     <Compile Include="Models\PriceEntity.cs" />
     <Compile Include="Models\TicketEntity.cs" />
+    <Compile Include="Models\User_nEntity.cs" />
+    <Compile Include="Models\WorkPieceTypeEntity.cs" />
+    <Compile Include="Models\WorkPieceEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
